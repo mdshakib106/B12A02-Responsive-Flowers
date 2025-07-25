@@ -172,11 +172,55 @@ section {
 }
 
 
-
-
-
 .plan-title {
     font-weight: 700;
     font-size: 3rem;
     margin-top: 120px;
+}
+
+/* Plant lover section */
+
+.plant-lover {
+    margin-top: 150px;
+}
+
+.plant-lover-container {
+    gap: 75px;
+}
+.flower-store-img {
+    max-width:540px;
+        max-height: 521px;
+}
+
+.plant-lover-container .plant-lover-info{
+        max-width:540px;
+        max-height: 597px;
+}
+.plant-img {
+    position: relative;
+    width: fit-content;
+}
+
+
+.trusted-badge {
+    position: absolute;
+    top: -125px;
+    left: 355px;
+    width: 280px;
+    height: 280px;
+}
+
+.plant-lover-title {
+    font-weight: 700;
+    font-size: 3.2rem;
+    margin: 0px 10px;
+}
+.plant-lover-info  {
+    
+    margin: 38px 0px 38px 60px;
+}
+.plant-lover-info p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 15px 5px;
 }
