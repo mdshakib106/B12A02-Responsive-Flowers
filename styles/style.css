@@ -390,3 +390,60 @@ main > .from {
     font-size: 1rem;
     cursor: pointer;
 }
+
+
+
+/* footer section */
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+}
+
+
+.footer-logo{
+    width: 360px;
+}
+
+.footer-logo img{
+    max-width: 100%;
+}
+.footer-logo p{
+    font-weight: 400;
+    font-size: 1.40rem;
+}
+
+
+.footer-links ul{
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.footer-links li{
+    list-style: none;
+    margin-bottom: 35px;
+    padding: 0;
+    
+}
+.footer-links a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.40rem;
+    color: gray;
+}
+
+
+.social-media img {
+
+    margin-right:25px;
+}
+
