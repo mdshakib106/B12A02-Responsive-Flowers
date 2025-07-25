@@ -329,3 +329,64 @@ section {
     font-size: 2rem;
     color: #ffffff;
 }
+
+
+/* join section */
+
+.from{
+    width: 100vp;
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+main > .from {
+    max-width: none;
+}
+
+.from-container{
+    width: 830px;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.from-container h2{
+    font-weight: 700;
+    font-size: 3.25rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+    
+}
+
+.from-content{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.from-content input{
+    background-color: #fff;
+    width: 70%;
+    border: none;
+    font-size: 1rem;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.from-content button{
+    background-color:#E95A08;
+    padding: 26px 50px;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
